@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LibBdMap</string>
+
+
+
+    <string name="text_bd_map_type_NORMAL">谱图地图</string>
+    <string name="text_bd_map_type_SATELLITE">卫星图</string>
+    <string name="text_bd_map_type_NONE">空白地图</string>
+    <string name="text_bd_map_location">定位</string>
+    <string name="text_bd_map_mark">覆盖物</string>
+    <string name="text_bd_map_poi">poi 检索</string>
+    <string name="text_bd_route_plan">路径规划</string>
+</resources>

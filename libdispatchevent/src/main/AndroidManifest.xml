@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="k.mr.com.libdispatchevent">
+    <application>
+        <activity android:name=".EventDispatchActivity"/>
+    </application>
+</manifest>

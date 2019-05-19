@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="jy.com.libbdmap">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application>
+
+
+        <meta-data
+                android:name="com.baidu.lbsapi.API_KEY"
+                android:value="IOWYPC8lYYhC5RS2C9shgq81Uj89cdf6" />
+
+        <service android:name="com.baidu.location.f"
+                 android:enabled="true"
+                 android:process=":remote"/>
+
+
+        <activity android:name=".training.BdMapActivity"/>
+    </application>
+
+</manifest>
