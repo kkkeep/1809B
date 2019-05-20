@@ -12,6 +12,7 @@ import com.jy.small.training.base.BaseActivity;
 import com.jy.small.training.repository.entity.Banner;
 import com.jy.small.training.utils.Logger;
 import com.jy.small.training.utils.Logger1;
+import com.trello.rxlifecycle2.components.support.RxFragment;
 
 import java.util.List;
 
@@ -64,6 +65,9 @@ public class BannerActivity extends BaseActivity implements BannerConstract.IBan
         mBannerPresenter = presenter;
         mBannerPresenter.attachView(this);
     }
+
+
+
 
     @Override
     public Context getContextObject() {

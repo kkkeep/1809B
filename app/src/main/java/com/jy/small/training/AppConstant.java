@@ -6,5 +6,6 @@ package com.jy.small.training;
 public class AppConstant {
 
     public static final String BASE_URL = "http://www.wanandroid.com";
+    public static final String ZHIHU_BASE_URL = "https://news-at.zhihu.com/api/4";
 
 }
